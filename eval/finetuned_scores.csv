@@ -1,0 +1,21 @@
+filename,raw_output_first_50_chars,is_valid_json,has_all_required_keys,key_accuracy,value_accuracy,notes
+eval_doc_01,"{   ""vendor"": ""Atlas Engineering Solutions Ltd."", ",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_02,"{   ""vendor"": ""Silver Creek Pottery Studio"",   ""in",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_03,"{   ""vendor"": ""Klein und Weber Druckerei GmbH"",   ",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_04,"{   ""vendor"": ""Manchester Piano Tuning"",   ""invoic",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_05,"{   ""vendor"": ""Chennai Auto Parts Distributors"",  ",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_06,"{   ""vendor"": ""Black Diamond Welding LLC"",   ""invo",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_07,"{   ""buyer"": ""Cedar Rapids School District"",   ""su",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_08,"{   ""buyer"": ""Edinburgh Festival Fringe Society"", ",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_09,"{   ""vendor"": ""Beacon Hill Locksmith"",   ""invoice_",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_10,"{   ""buyer"": ""Renault Sport Racing"",   ""supplier"":",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_11,"{   ""vendor"": ""Cascade Window Cleaning Inc."",   ""i",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_12,"{   ""vendor"": ""Osaka Printing Works Co. Ltd."",   """,TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_13,"{   ""buyer"": ""Indian Oil Corporation Ltd."",   ""sup",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_14,"{   ""buyer"": ""Austin City Parks Department"",   ""su",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_15,"{   ""vendor"": ""Prairie Wind Music Academy"",   ""inv",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_16,"{   ""buyer"": ""KLM Royal Dutch Airlines"",   ""suppli",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_17,"{   ""vendor"": ""Great Basin Environmental Consultin",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_18,"{   ""buyer"": ""Portland Art Museum"",   ""supplier"": ",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_19,"{   ""vendor"": ""Cornwall Surf School Ltd."",   ""invo",TRUE,TRUE,1.00,1.00,Perfect extraction
+eval_doc_20,"{   ""buyer"": ""Colorado Department of Transportatio",TRUE,TRUE,1.00,1.00,Perfect extraction

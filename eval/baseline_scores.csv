@@ -1,0 +1,21 @@
+filename,raw_output_first_50_chars,is_valid_json,has_all_required_keys,key_accuracy,value_accuracy,notes
+eval_doc_01,"{   ""vendor"": ""Atlas Engineering Solutions Ltd.""; ",TRUE,TRUE,1.00,1.00,Valid JSON with all required keys present
+eval_doc_02,"```json {   ""vendor"": ""Silver Creek Pottery Studio""",FALSE,FALSE,0.00,0.00,Response wrapped in markdown code fences — json.loads() fails
+eval_doc_03,"Sure! Here is the JSON: ```json {   ""vendor"": ""Kle",FALSE,FALSE,0.00,0.00,Prose preamble and markdown code fences — json.loads() fails
+eval_doc_04,"{   ""vendor"": ""Manchester Piano Tuning"";   ""date"":",TRUE,FALSE,0.44,0.75,"Valid JSON but missing required keys: due_date, invoice_number, subtotal, tax, total"
+eval_doc_05,"Here is the extracted information: ```json {   ""ve",FALSE,FALSE,0.00,0.00,Prose preamble and markdown code fences — json.loads() fails
+eval_doc_06,"{   ""vendor"": ""Black Diamond Welding LLC"";   ""curr",TRUE,FALSE,0.44,0.38,"Valid JSON but missing required keys: date, due_date, invoice_number, subtotal, total"
+eval_doc_07,"{   ""buyer"": ""Cedar Rapids School District"";   ""su",TRUE,TRUE,1.00,1.00,Valid JSON with all required keys present
+eval_doc_08,"```json {   ""buyer"": ""Edinburgh Festival Fringe So",FALSE,FALSE,0.00,0.00,Response wrapped in markdown code fences — json.loads() fails
+eval_doc_09,"Sure! Here is the JSON: ```json {   ""vendor"": ""Bea",FALSE,FALSE,0.00,0.00,Prose preamble and markdown code fences — json.loads() fails
+eval_doc_10,"{   ""buyer"": ""Renault Sport Racing"";   ""supplier"":",TRUE,TRUE,1.00,1.00,Valid JSON with all required keys present
+eval_doc_11,"```json {   ""vendor"": ""Cascade Window Cleaning Inc",FALSE,FALSE,0.00,0.00,Response wrapped in markdown code fences — json.loads() fails
+eval_doc_12,"{   ""vendor"": ""Osaka Printing Works Co. Ltd."";   """,TRUE,TRUE,1.00,1.00,Valid JSON with all required keys present
+eval_doc_13,"{   ""buyer"": ""Indian Oil Corporation Ltd."";   ""sup",TRUE,TRUE,1.00,0.86,Valid JSON with all required keys present
+eval_doc_14,"{   ""buyer"": ""Austin City Parks Department"";   ""su",TRUE,TRUE,1.00,1.00,Valid JSON with all required keys present
+eval_doc_15,"```json {   ""vendor"": ""Prairie Wind Music Academy""",FALSE,FALSE,0.00,0.00,Response wrapped in markdown code fences — json.loads() fails
+eval_doc_16,"{   ""buyer"": ""KLM Royal Dutch Airlines"";   ""suppli",TRUE,TRUE,1.00,1.00,Valid JSON with all required keys present
+eval_doc_17,"```json {   ""vendor"": ""Great Basin Environmental C",FALSE,FALSE,0.00,0.00,Response wrapped in markdown code fences — json.loads() fails
+eval_doc_18,"{   ""buyer"": ""Portland Art Museum"";   ""supplier"": ",TRUE,TRUE,1.00,1.00,Valid JSON with all required keys present
+eval_doc_19,"{   ""vendor"": ""Cornwall Surf School Ltd."";   ""invo",TRUE,TRUE,1.00,1.00,Valid JSON with all required keys present
+eval_doc_20,"{   ""buyer"": ""Colorado Department of Transportatio",TRUE,TRUE,1.00,1.00,Valid JSON with all required keys present
